@@ -1,11 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraBoundary
+    - CameraFollow2D
     - CheckPoint
     - Land_Movement
     - Player
     - ResetVals
     - Respawn
+    - Trigger_Camera
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
@@ -21,7 +24,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/dev_checkpoint.unity:
+    Assets/Scenes/dev_camera_1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -51,15 +54,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11478}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11878}
+      Script: {instanceID: 11906}
     - Class: 114
-      Script: {instanceID: 13090}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 14416}
+      Script: {instanceID: 12298}
+    - Class: 114
+      Script: {instanceID: 13118}
+    - Class: 114
+      Script: {instanceID: 13384}
+    - Class: 114
+      Script: {instanceID: 14444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -601,5 +610,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 19
   scenePathNames:
-  - Assets/Scenes/dev_checkpoint.unity
-  playerPath: C:/HDD/Documents/GitHub/VGDC_project2/New Unity Project/New Unity Project.exe
+  - Assets/Scenes/dev_camera_1.unity
+  playerPath: E:/Github/Respawn_and_Checkpoints/New Unity Project/New Unity Project.exe

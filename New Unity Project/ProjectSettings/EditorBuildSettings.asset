@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/dev_checkpoint.unity
     guid: f32cbca17ef383945843a344c7158100
+  - enabled: 1
+    path: Assets/Scenes/dev_camera_1.unity
+    guid: 55124b4232d313c4e97b2b7d064d5e43
   m_configObjects: {}
